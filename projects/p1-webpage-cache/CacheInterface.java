@@ -6,30 +6,37 @@
 public interface CacheInterface<K, V extends KeyInterface<K>> {
 
     /**
-     * TODO - complete the javadoc here
-     * @param key
-     * @return
+     * gets a value from cache by key
+     * @param key key used to get value
+     * @return value associated with the key
      */
-    public V get(K key);
+    public V get(K key);{
+    return cache.get(key);
+    }
 
     /**
-     * TODO - complete the javadoc here
-     * @param value
-     * @return
+     * gives a value to the cache. Existing value will be replaced.
+     * @param value value added to cache.
+     * @return returns previous value.
      */
-    public V add(V value);
+    public V add(V value);{
+    return cache.put(value.getKey(), value);
+}
 
     /**
-     * TODO - complete the javadoc here
-     * @param key
-     * @return
+     * removes a value from cache by key.
+     * @param key identifier for value that will be removed.
+     * @return removed value
      */
-    public V remove(K key);
-
+    public V remove(K key); {
+    return cache.remove(key);
+}
     /**
-     * TODO - complete the javadoc here
+     * clears cache entries
      */
-    public void clear();
+    public void clear(); {
+        cache.clear();
+    }
 
     /**
      * {@inheritDoc} 
