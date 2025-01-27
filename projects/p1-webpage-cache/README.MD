@@ -19,7 +19,7 @@ The rest of my problems are seemingly unfixable.
 
 I couldn't run ANY of the debug levels shown in the project 1 video.
 I tried for hours to get JUnit to work on my IDE (vscode) and nothing worked even after following
-the provided JUnit walkthrough. Compiling CacheTest wouldn't work either. The last problem I am facing is when running the test script. All of my tests say they fail although it becomes more efficient as the cache grows as shown in the examples. Truthfully I didn't find much to enjoy as the joy kept leaving me after each problem kept me from turning in this lab on time. Lackluster walkthrough and instruction did not help any and made frustrations worse.
+the provided JUnit walkthrough. Compiling CacheTest wouldn't work either. The last problem I am facing is when running the test script. All of my tests say they fail although it becomes more efficient as the cache grows as shown in the examples.
 
 ## Compiling and Using
 
